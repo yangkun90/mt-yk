@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <script src="../lib/reset.js"></script>
+    <link rel="stylesheet" href="../lib/reset.css">
+    <link rel="stylesheet" href="./header/header.css">
+    <link rel="stylesheet" href="./searchBar/searchBar.css">
+    <link rel="stylesheet" href="./category/category.css">
+    <link rel="stylesheet" href="./contentlist/contentlist.css">
+    <link rel="stylesheet" href="./starscore/starscore.css">
+    <link rel="stylesheet" href="../common/bottombar/bottombar.css">
+</head>
+<body>
+    <div class="header">
+        <div class="search-bar">
+            <div class="bar-location">
+                <div class="location-icon"></div>
+                <div class="location-text">合肥</div>
+            </div>
+            <div class="search-btn">
+                <p class="place-holder">鸡翅</p>
+            </div>
+        </div>
+       <img class="header-img" src="http://s1.meituan.net/bs/file?f=meis/meishi.mobile:img/app_download_banner.png@ef3d0cc" alt="">
+    </div>
+
+    <div class="category-content clearfix">
+    </div>
+    <!-- 列表 -->
+    <div class="list-content">
+        <h4 class="list-title">
+            <span class="title-line"></span>
+            <span>附近商家</span>
+            <span class="title-line"></span>
+        </h4>
+        <div class="list-wrap"></div>
+        <div class="loading">加载中</div>
+    </div>
+
+    <!-- 导航 -->
+    <div class="bottom-bar"></div>
+    <script src="../lib/jquery.min.js"></script>
+    <script src="./category/category.js"></script>
+    <script src="./contentlist/contentlist.js"></script>
+    <script src="./starscore/starscore.js"></script>
+    <script src="../common/bottombar/bottombar.js"></script>
+</body>
+</html>
